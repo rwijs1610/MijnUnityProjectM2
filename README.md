@@ -34,7 +34,15 @@ Structuur van het level
 - Midden: veld met targets.
 - Onderaan: opvang of doelgebied voor het einde van de beurt.
 
-## les 1
+## les 2.1
+
+![AddForce](ImgGifs/AddForce.gif)
+
+**Ik heb gedaan zoals gevraagt is in de opdracht en heb daarmee een aadforce aspekt gemaakt die omhoog werkt op de bal**
+
+**Daarna heb ik mijn scene uitgebrijt met target/bumbers die ik een tag heb gegeven zodat er gekeken kan worden of die tags worden  aangeraakt door de ball. Als dat zo is laat ik hem loggen in console**
+
+## les 2.2
 
 ![canon](ImgGifs/PeggleMikkenLineRenderer.gif)
 
@@ -47,3 +55,19 @@ Structuur van het level
 **Ik heb 2 scripts gemaakt deze les 1 voor [shoot](assets/scripts/shoot(peggle).cs) en 1 voor [aim](assets/scripts/aim(peggle).cs)**
 
 **Ik heb ook een Line-Renderer gemaakt om te laten zien hoe hard je schiet**
+
+## les 3.1
+
+![ScoreManeger+multiplayer](ImgGifs/scoremaneger+multiplayer.gif)
+
+**Ik heb de instructies gevolgd die gegeven waren en heb een [score manager](Assets/scripts/ScoreManager(peggle).cs) toegevoegt die heel makelijk de score opslaat en daarna in een script logd**
+
+## les 3.2 
+
+![ScoreManeger+multiplayer](ImgGifs/scoremaneger+multiplayer.gif)
+
+**Ik heb uitgebreid op de vorrige opdr en heb een multiplayer systeem gemaakt die kijkt of dezelfde tag 2 of meerdere keer wordt aangeraagt en die hoeveelheid gebruikt hij dan als multipayer op de aantal punten**
+
+[dit is het script die de combo regelt](Assets/scripts/ComboSystem(peggle).cs)
+
+

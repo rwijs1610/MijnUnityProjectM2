@@ -7,7 +7,8 @@ public class BumperHit : MonoBehaviour
     public static event Action<string, int> onBumperHit;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ball")) {
+        if (collision.gameObject.CompareTag("ball"))
+        {
             onBumperHit?.Invoke(gameObject.tag, scoreValue);
         }
     }

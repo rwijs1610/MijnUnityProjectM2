@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4441653811934466660}
   - component: {fileID: 1778460469532817701}
   - component: {fileID: 6993479666869210251}
+  - component: {fileID: -5271946089584642992}
   m_Layer: 0
   m_Name: bumper geen kleur
   m_TagString: combogeenkleur
@@ -154,3 +155,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BumperHit
   scoreValue: 100
+--- !u!114 &-5271946089584642992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918141567179248219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184119a4c84caba469ae41a3e966d0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Peggle
+  hitsToDestroy: 3
+  pointsPerHit: 10

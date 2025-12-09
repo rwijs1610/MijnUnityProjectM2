@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-
 public class ComboSystem : MonoBehaviour
 {
     private List<string> bumperTags = new List<string>();
@@ -13,9 +12,11 @@ public class ComboSystem : MonoBehaviour
     {
         BumperHit.onBumperHit -= CheckForCombo;
     }
-    private void CheckForCombo(string tag, int bumperValue) {
-        if (bumperTags.Count > 1) {
-
+    private void CheckForCombo(string tag, int bumperValue)
+    {
+        bumperTags.Add(tag);
+        if (bumperTags.Count > 1)
+        {
             if (bumperTags[bumperTags.Count - 2] == bumperTags[bumperTags.Count - 1])
             {
                 scoreMultiplier++;
@@ -26,5 +27,7 @@ public class ComboSystem : MonoBehaviour
                 bumperTags.Clear();
             }
         }
+        ScoreManager.Instance.AddScore(bumperValue * scoreMultiplier);
+        Debug.Log($"Score: {ScoreManager.Instance.score} || Multiplier: {scoreMultiplier}X");
     }
-}                                                   
+}
