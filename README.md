@@ -52,7 +52,7 @@ Structuur van het level
 
 **Ik heb daarna hetzelfde gedaan met de bal daar heb ik een prefab van gemaakt zodat ik hem makelijk kan hergebruiken**
 
-**Ik heb 2 scripts gemaakt deze les 1 voor [shoot](assets/scripts/shoot(peggle).cs) en 1 voor [aim](assets/scripts/aim(peggle).cs)**
+**Ik heb 2 scripts gemaakt deze les 1 voor [shoot](Assets/scripts/shoot(peggle).cs) en 1 voor [aim](Assets/scripts/aim(peggle).cs)**
 
 **Ik heb ook een Line-Renderer gemaakt om te laten zien hoe hard je schiet**
 
