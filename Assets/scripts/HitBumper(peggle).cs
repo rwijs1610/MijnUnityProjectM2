@@ -1,13 +1,10 @@
-using UnityEngine;
 using System;
-
-public class BumperHit : MonoBehaviour
+using UnityEngine;
+public class HitBumper : MonoBehaviour
 {
     [SerializeField] private int bumperValue = 50;
     private ParticleSystem ps;
     public static event Action<Transform, int> onHitBumper;
-    [SerializeField] private int scoreValue = 100;
-    public static event Action<string, int> onBumperHit;
     private void Start()
     {
         ps = GetComponent<ParticleSystem>();
@@ -17,7 +14,6 @@ public class BumperHit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("ball"))
         {
-            onBumperHit?.Invoke(gameObject.tag, scoreValue);
             onHitBumper?.Invoke(gameObject.transform, bumperValue);
             ps?.Stop();
             ps?.Play();

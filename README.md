@@ -27,7 +27,7 @@ Gameplaykern
 - Score: als je een bumber haalt
 - Doel: als ej 500 punten hebt 
 - Stijl en sfeer
-donker thema mogenlijk zwart met regenboog 
+plant vs zombies
 
 Structuur van het level
 - Bovenaan: schietplek.
@@ -68,6 +68,33 @@ Structuur van het level
 
 **Ik heb uitgebreid op de vorrige opdr en heb een multiplayer systeem gemaakt die kijkt of dezelfde tag 2 of meerdere keer wordt aangeraagt en die hoeveelheid gebruikt hij dan als multipayer op de aantal punten**
 
-[dit is het script die de combo regelt](Assets/scripts/ComboSystem(peggle).cs)
+1. [dit is het script die de combo regelt](Assets/scripts/ComboSystem(peggle).cs)
+2. [en deze stuurt de puntnen naar de scoremaneger](Assets/scripts/BumperHit(peggle).cs)
 
+## les 4.1 
 
+![ui](ImgGifs/ui.png)
+
+**ik heb een font gekozen van google fonts en die gebruikt voor de text die op mijn scherm staan**
+
+## les 4.2
+
+![score versturen](scoreversturen.gif)
+
+**ik heb de code gebruikt uit de opdracht en heb die toegepast**
+
+dit zijn alle scripts die ik heb gemaakt of heb aangepast
+
+1. [update aan shoot script](Assets/scripts/shoot(peggle).cs)
+2. [script at de ballen telt en blokeerd je van schieten als je 5 keer heb geschoten](Assets/scripts/CountBalls(peggle).cs)
+3. [het scoreboard](Assets/scripts/UIScoreBoard(peggle).cs)
+4. [update aan combosystem](Assets/scripts/CountBalls(peggle).cs)
+
+## les 5.2
+
+![Particles](<Particles .gif>)
+
+**ik heb de uitleg gevolgt en de particles toegevoegt aan bijde varianten van mijn peggle**
+
+1. [een hele nieuwe stuk code namelijk deze](Assets/scripts/HitBumper(peggle).cs)
+2. [een update aan ComboSystem](Assets/scripts/ComboSystem(peggle).cs)
