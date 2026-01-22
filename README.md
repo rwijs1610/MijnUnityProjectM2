@@ -98,3 +98,9 @@ dit zijn alle scripts die ik heb gemaakt of heb aangepast
 
 1. [een hele nieuwe stuk code namelijk deze](Assets/scripts/HitBumper(peggle).cs)
 2. [een update aan ComboSystem](Assets/scripts/ComboSystem(peggle).cs)
+
+## les 6.1
+
+![final gif](finalGif.gif)
+
+**ik heb als laatste aan pause menu toegevoegt met credits en quit btn**
