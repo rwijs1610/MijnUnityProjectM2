@@ -11,7 +11,7 @@ public class Shoot : MonoBehaviour
     private bool _lineActive = false;
     private float _pressTimer = 0f;
     private float _launchForce = 0f;
-    private bool _shotEnabled = true;
+    public bool _shotEnabled = true;
 
     private void Start()
     {
@@ -25,7 +25,7 @@ public class Shoot : MonoBehaviour
     }
     private void Update()
     {
-        if (_shotEnabled) HandleShot();
+        if (_shotEnabled && !PauseMenu.GameIsPaused) HandleShot();
     }
     private void HandleShot()
     {
@@ -54,7 +54,7 @@ public class Shoot : MonoBehaviour
             _line.SetPosition(1, Vector3.right * _pressTimer * lineSpeed);
         }
     }
-    private void DisableShot()
+    public void DisableShot()
     {
         _shotEnabled = false;
     }
